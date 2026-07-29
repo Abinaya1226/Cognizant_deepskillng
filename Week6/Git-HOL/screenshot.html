@@ -1,0 +1,47 @@
+<div style="background: var(--surface-1); border-radius: 12px; padding: 1rem;">
+<div style="background: #0c0c0c; border-radius: 6px; overflow: hidden; font-family: var(--font-mono); font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
+<div style="background: #2b2b2b; padding: 6px 10px; display:flex; align-items:center; gap:8px;">
+<div style="width:14px;height:14px;background:#5c2d91; border-radius:2px; display:flex; align-items:center; justify-content:center; font-size:9px; color:#fff;">$</div>
+<span style="color:#cfcfcf; font-size:12px;">MINGW64:/c/Users/User/Documents/Git-T03-HOL_002</span>
+</div>
+<div style="padding: 12px 14px; color: #e0e0e0; line-height: 1.65; white-space: pre-wrap;">
+<span style="color:#4ec9b0;">User@DESKTOP-7GJ2K1</span> <span style="color:#d4d4d4;">MINGW64</span> <span style="color:#dcdcaa;">~/Documents/Git-T03-HOL_002</span> <span style="color:#e06c75;">(master)</span>
+<span style="color:#569cd6;">$</span> git status
+On branch master
+nothing to commit, working tree clean
+
+<span style="color:#4ec9b0;">User@DESKTOP-7GJ2K1</span> <span style="color:#d4d4d4;">MINGW64</span> <span style="color:#dcdcaa;">~/Documents/Git-T03-HOL_002</span> <span style="color:#e06c75;">(master)</span>
+<span style="color:#569cd6;">$</span> git branch -a
+* master
+  remotes/origin/master
+  remotes/origin/Git-T03-HOL_002
+
+<span style="color:#4ec9b0;">User@DESKTOP-7GJ2K1</span> <span style="color:#d4d4d4;">MINGW64</span> <span style="color:#dcdcaa;">~/Documents/Git-T03-HOL_002</span> <span style="color:#e06c75;">(master)</span>
+<span style="color:#569cd6;">$</span> git pull origin master
+From github.com:youruser/Git-T03-HOL_002
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+<span style="color:#4ec9b0;">User@DESKTOP-7GJ2K1</span> <span style="color:#d4d4d4;">MINGW64</span> <span style="color:#dcdcaa;">~/Documents/Git-T03-HOL_002</span> <span style="color:#e06c75;">(master)</span>
+<span style="color:#569cd6;">$</span> git add .
+
+<span style="color:#4ec9b0;">User@DESKTOP-7GJ2K1</span> <span style="color:#d4d4d4;">MINGW64</span> <span style="color:#dcdcaa;">~/Documents/Git-T03-HOL_002</span> <span style="color:#e06c75;">(master)</span>
+<span style="color:#569cd6;">$</span> git commit -m "Git-T03-HOL_002: cleanup and push"
+[master 4f2a1c9] Git-T03-HOL_002: cleanup and push
+ 1 file changed, 3 insertions(+)
+
+<span style="color:#4ec9b0;">User@DESKTOP-7GJ2K1</span> <span style="color:#d4d4d4;">MINGW64</span> <span style="color:#dcdcaa;">~/Documents/Git-T03-HOL_002</span> <span style="color:#e06c75;">(master)</span>
+<span style="color:#569cd6;">$</span> git push origin master
+Enumerating objects: 5, done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+To github.com:youruser/Git-T03-HOL_002.git
+   1a2b3c4..4f2a1c9  master -> master
+
+<span style="color:#4ec9b0;">User@DESKTOP-7GJ2K1</span> <span style="color:#d4d4d4;">MINGW64</span> <span style="color:#dcdcaa;">~/Documents/Git-T03-HOL_002</span> <span style="color:#e06c75;">(master)</span>
+<span style="color:#569cd6;">$</span> git log origin/master -1
+commit 4f2a1c9 (HEAD -> master, origin/master)
+Author: youruser <youruser@example.com>
+    Git-T03-HOL_002: cleanup and push
+<span style="color:#569cd6;">$</span> _</div>
+</div>
+</div>
